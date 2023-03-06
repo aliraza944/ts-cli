@@ -15,7 +15,7 @@ const getArgs = () => {
 const printCommandHelp = () => {
   const version = getVersion();
   const help = `
-pique-sous (version: ${version})
+ts-cli (version: ${version})
 
 A simple command to retrieve stock information.
 
