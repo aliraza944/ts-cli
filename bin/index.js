@@ -14,13 +14,13 @@ const getArgs = () => {
 const printCommandHelp = () => {
     const version = (0, getVersion_1.getVersion)();
     const help = `
-pique-sous (version: ${version})
+ts-cli (version: ${version})
 
 A simple command to retrieve stock information.
 
 Example:
 
-$ ts-cli MSFT SFIX GOOG
+npx ts-cli MSFT SFIX GOOG
 
 `;
     console.log(help);

@@ -21,7 +21,7 @@ A simple command to retrieve stock information.
 
 Example:
 
-$ ts-cli MSFT SFIX GOOG
+npx ts-cli MSFT SFIX GOOG
 
 `;
   console.log(help);
